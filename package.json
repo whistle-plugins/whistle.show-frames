@@ -1,0 +1,24 @@
+{
+  "name": "whistle.show-frames",
+  "version": "1.0.0",
+  "description": "Use to display websocket/socket frames in the whistle webui",
+  "scripts": {
+    "lint": "eslint *.js lib",
+    "lintfix": "eslint --fix *.js lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whistle-plugins/whistle.show-frames.git"
+  },
+  "devDependencies": {
+    "babel-eslint": "~8.2.1",
+    "eslint": "~4.15.0",
+    "eslint-config-imweb": "^0.2.7"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "dependencies": {
+    "simpleproto": "^1.0.0"
+  }
+}

@@ -1,0 +1,1 @@
+tunnel://* show-frames:// filter://h:x-whistle-show-frames!=1 enable://customParser disable://capture
