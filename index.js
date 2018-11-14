@@ -9,11 +9,11 @@ module.exports = (server) => {
       try {
         data = JSON.parse(data) || '';
         if (data.seq != null) {
+          socket.write(encode(data.req));
           if (curSeq === data.seq) {
             return;
           }
           curSeq = data.seq;
-          socket.write(encode(curSeq));
         }
         if (data.req) {
           req.emit('clientFrame', data.req);

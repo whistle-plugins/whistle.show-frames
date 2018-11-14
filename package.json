@@ -1,6 +1,6 @@
 {
   "name": "whistle.show-frames",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use to display websocket/socket frames in the whistle webui",
   "scripts": {
     "lint": "eslint *.js lib",
