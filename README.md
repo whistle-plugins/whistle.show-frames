@@ -1,3 +1,5 @@
+**该方法不推荐使用，建议采用 `pipe` 代替，具体参见：https://github.com/whistle-plugins/examples/tree/master/whistle.test-pipe**
+
 # whistle.show-frames
 用来在whistle中显示TCP/Socket请求的数据包，该插件不做中转服务，只是把接收到的数据展示到whistle的Network界面的Frames面板里面。
 
